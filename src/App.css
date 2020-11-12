@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th, td {
+  padding: 15px;
+  text-align: left;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .error{
+    margin-left : 1rem;
+    color : red
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .success {
+    color: green;
   }
-  to {
-    transform: rotate(360deg);
+  input[type=text] {
+    width: 90%;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 4px;
+    resize: vertical;
   }
-}
+  .moviename {
+    background: cadetblue;
+    padding: 7px;
+    color: blue;
+  }
+  .submit{
+    background-color: aqua;
+    border-radius: 7px;
+    border: 0px;
+    margin-left: 1rem;
+    color: #1f0000;
+    padding: 1% 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .link {
+    background-color: red;
+      box-shadow: 0 5px 0 darkred;
+      color: white;
+      padding: 1% 1.5em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    
+    .link:hover {
+      background-color: #ce0606;
+    }
+    
+    .link:active {
+      box-shadow: none;
+      top: 5px;
+    }
+    
+    /* Non-Demo Styles */
+    body .maindiv {
+      display: flex;
+      margin-top: 2rem;
+      justify-content: center;
+      align-items: center;
+    }
