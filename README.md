@@ -97,7 +97,7 @@ export default  function(state = initialState, action){
             //     }
             //    var response =  submitUserData(postData)
             //    message = response.result;
-            }
+            //}
             state = { ...state, formdata, errordata}
             break;
 
