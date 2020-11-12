@@ -97,10 +97,9 @@ export default  function(state = initialState, action){
             //     }
             //    var response =  submitUserData(postData)
             //    message = response.result;
-            //}
+            }
             state = { ...state, formdata, errordata}
             break;
-
             case LOGIN_USER :
                 Object.keys(loginData).map(_detail => {
                     let error="",mobileorlogin=false;
@@ -147,3 +146,8 @@ export default  function(state = initialState, action){
     return state;
     
 }
+
+
+/*
+
+         */
